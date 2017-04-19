@@ -1,0 +1,93 @@
+html, body, #main {
+  width:100% !important;
+  height:100% !important;
+}
+
+#intro .row, #about .row, #featured .row {
+  padding:2em;
+}
+
+#intro {
+  height:100%;
+  width:100%;
+  display: flex;
+  align-items: center;
+  background-color:black;
+  background-image:url('../img/logs-bkgd.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  justify-content:center;
+}
+
+.introContent, .introText {
+  position:relative;
+}
+
+.introText {
+  position:absolute;
+  bottom: 0.5em;
+  left: -2em;
+}
+
+#about {
+  background-color:red;
+}
+
+#portfolio {
+  background-color:gray;
+}
+
+footer {
+  background-color:black;
+}
+
+nav {
+  background-color:white;
+  width:100%;
+  padding:1em 2em 1em 2em;
+}
+
+nav h2 {
+  display:inline;
+}
+
+nav ul{
+  padding-right:2em;
+  float:right;
+}
+
+nav ul li{
+  list-style-type: none;
+  display:inline;
+  float:right;
+  padding-left: 2em;
+  text-transform: uppercase;
+  padding-top:1em;
+}
+
+#featured {
+  background-color:green;
+}
+
+.featImage {
+  display:flex;
+  justify-content:center;
+
+}
+
+#about h2 {
+  font-size:14em;
+  text-align:center;
+  word-wrap:break-word;
+  opacity:0.2;
+}
+
+.welcome-text {
+  padding:2em 4em 2em 4em;
+}
+
+.img-responsive img{
+  margin: 0 auto;
+  width: 100%;
+}
