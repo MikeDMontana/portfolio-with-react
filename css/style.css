@@ -36,12 +36,34 @@ html, body, #main {
 
 #portfolio {
   background-color:gray;
+  padding:0px;
 }
 
+#portfolio .col-md-4 {
+  padding:0px !important;
+}
+
+#portfolio ul.row {
+  padding:0px !important;
+  margin:0px;
+}
+
+#portfolio .col-md-4 {
+   position: relative;
+}
+
+#portfolio h2 {
+   position: absolute;
+   top: 33%;
+   left: 33%;
+   width: 100%;
+}
 footer {
   background-color:black;
 }
-
+footer h2 {
+  margin:0px;
+}
 nav {
   background-color:white;
   width:100%;
@@ -82,7 +104,6 @@ nav ul li{
   word-wrap:break-word;
   opacity:0.2;
 }
-
 .welcome-text {
   padding:2em 4em 2em 4em;
 }
